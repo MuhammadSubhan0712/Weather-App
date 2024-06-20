@@ -1,25 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body,html{
-    background: linear-gradient(90deg, #2e2e2e, #020274);
-   
+body,
+html {
+  background: linear-gradient(90deg, #2e2e2e, #020274);
 }
 
-button{
-    width: 3%;  
+button {
+  width: 3%;
+  border: 5px inset rgb(0, 255, 42);
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(0, 87, 22);
+  transition: 0.2s ease-in-out;
 }
 
+button:hover {
+  cursor: pointer;
+  color: teal;
 
-#input{
-    width: 30%;
+  transition: 0.2s ease-in-out;
+}
+i {
+  font-size: 20px;
 }
 
+#input {
+  width: 30%;
+  border: 5px inset rgb(0, 203, 230);
+  border-radius: 7px;
+}
 
-#image{
-    height: 50%;
-    width: 50%;
+#image {
+  height: 50%;
+  width: 50%;
 }
