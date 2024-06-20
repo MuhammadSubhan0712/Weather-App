@@ -16,9 +16,9 @@ form.addEventListener("submit", (event) => {
   <img src="${res.data.current.condition.icon}" class="card-img-top" id="image" alt="icon">
   <div class="card-body">
     <h5 class="card-title">City: ${res.data.location.name} </h5>
-    <h6 class="card-title">Coutnry:  (${res.data.location.country})  </h6>
+    <h6 class="card-title">Coutnry:  ${res.data.location.country} </h6>
     <p class="card-text">Local-Time: ${res.data.location.localtime}</p>
-    <p class="card-text">${res.data.location.country}</p>
+    <p class="card-text">Weather: ${res.data.location.country}</p>
   </div>
 </div>`
       console.log(res.data);
