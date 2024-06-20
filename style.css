@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 
-body{
-    /* background: linear-gradient(to bottom, #2e2e2e, #00008b); */
-    background: linear-gradient(45deg, #2e2e2e, #00008b);
-    /* background: linear-gradient(to right, #2e2e2e, #4b4b4b, #00008b); */
+body,html{
+   
+    background: linear-gradient(90deg, #2e2e2e, #00008b);
+   
 
 }
-
 
 #input{
     width: 30%;

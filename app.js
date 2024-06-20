@@ -1,10 +1,4 @@
 
-
-
-//569c0fa5727f4e9387350542241406 
-console.log("weather app");
-// https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/London,UK?key=YOUR_API_KEY
-
 const form = document.querySelector("#form");
 const input = document.querySelector("#input");
 const card = document.querySelector("#card");
@@ -18,7 +12,7 @@ form.addEventListener("submit", (event) => {
     .then((res) => {
          
         card.innerHTML = `
-    <div class="card" style="width: 18rem;">
+    <div class="bg-dark card align-items-center " style="width: 18rem;">
   <img src="${res.data.current.condition.icon}" class="card-img-top" alt="icon">
   <div class="card-body">
     <h5 class="card-title">${res.data.location.name}</h5>
