@@ -6,11 +6,22 @@
 
 body,html{
    
-    background: linear-gradient(90deg, #2e2e2e, #00008b);
+    background: linear-gradient(90deg, #2e2e2e, #020274);
    
 
 }
 
+button{
+    width: 3%;  
+}
+
+
 #input{
     width: 30%;
+}
+
+
+#image{
+    height: 50%;
+    width: 50%;
 }

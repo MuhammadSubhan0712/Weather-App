@@ -12,11 +12,12 @@ form.addEventListener("submit", (event) => {
     .then((res) => {
          
         card.innerHTML = `
-    <div class="bg-dark card align-items-center " style="width: 18rem;">
-  <img src="${res.data.current.condition.icon}" class="card-img-top" alt="icon">
+    <div class="bg-dark card align-items-center " style="width: 20%;">
+  <img src="${res.data.current.condition.icon}" class="card-img-top" id="image" alt="icon">
   <div class="card-body">
-    <h5 class="card-title">${res.data.location.name}</h5>
-    <p class="card-text">${res.data.location.localtime}</p>
+    <h5 class="card-title">City: ${res.data.location.name} </h5>
+    <h6 class="card-title">Coutnry:  (${res.data.location.country})  </h6>
+    <p class="card-text">Local-Time: ${res.data.location.localtime}</p>
     <p class="card-text">${res.data.location.country}</p>
   </div>
 </div>`
